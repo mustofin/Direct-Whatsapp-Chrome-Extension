@@ -1,0 +1,20 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 2,
+    "name": "Direct Whatsapp",
+    "short_name": "direct_whatsapp",
+    "version": "0.0.1",
+    "description": "Kirim chat whatsapp langsung tanpa harus simpan nomor",
+    "browser_action": {
+        "default_title": "Direct Whatsapp"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": { "16": "direct_whatsapp_logo.png",
+           "48": "direct_whatsapp_logo.png",
+          "128": "direct_whatsapp_logo.png" }
+  }
+  
